@@ -4,10 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Campinho Digital - Prompt</title>
   </head>
-  <header></header>
+  <body>
+    <main>
+      <header>
+      <h1 id="headTitle">Relatório de valores</h1>
+      </header>
+      <form>
+        <fieldset>
+          <legend>Dobro do valor</legend>
+          <button type="button" onclick="dobroNum()">Clique e descubra o dobro do valor</button>
+          </fieldset>
 
-  <body></body>
-  <script src="./main.js"></script>
+          <fieldset>
+          <legend>Valor total do jantar</legend>
+          <button type="button" onclick="jantarValor()">Clique e descubra o valor total da janta</button>
+          </fieldset>
+
+          <fieldset>
+          <legend>Pizzaria</legend>
+          <button type="button" onclick="contaPizza()">Quanto cada pessoa deve pagar</button>
+          </fieldset>
+      </form>
+      <h2>Resultados</h2>
+      <div id="container">
+      <div id="dobro" class="resultados">
+        <h1>Dobro</h1><hr>
+
+      </div>
+      <div id="jantar" class="resultados">
+        <h1>Jantar</h1><hr>
+
+      </div>
+      <div id="pizza" class="resultados">
+        <h1>Pizzaria</h1><hr>
+      </div>
+    </div>
+    </main>
+
+    <footer>
+      ©Copyright - Campinho Digital 2023 - Gustavo Miguel Oliveira Biscaro
+    </footer>
+
+  </body>
+  <script src="./js/main.js"></script>
 </html>
