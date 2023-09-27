@@ -62,7 +62,7 @@ git clone https://github.com/[SEU-USUÁRIO]/[REPOSITÓRIO]
 
 #### git branch
 O próprio terminal informa qual branch você está
-#### git chechout master 
+#### git checkout master 
 Para voltar para a branch principal, ou outra, caso houver
 
 #### Pull Request
