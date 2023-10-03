@@ -242,9 +242,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    bottom: 40px;
+    bottom: 20px;
     border: 2px solid rgb(87, 38, 185);
     width: 100%;
+    margin-top: 5px;
 }
 
 #form input {
@@ -253,7 +254,7 @@ button:hover {
     display: block;
     font-weight: bolder;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
