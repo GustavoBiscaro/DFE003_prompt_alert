@@ -50,16 +50,23 @@ p {
 }
 
 span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     font-weight: bold;
     font-size: 1.7em;
-    background: #000;
+    background: rgb(87, 38, 185);
     color: #c6c6c6;
+
 }
 
 h1 {
-    display: block;
+    display: flex;
     color: rgb(87, 38, 185);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 2em;
 }
 
@@ -124,11 +131,18 @@ button:hover {
 }
 
 .resultados {
+    display: block;
     border: 2px solid black;
     width: 500px;
     height: 200px;
     margin: 20px;
     clear: both;
+}
+
+.resultados h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 /* Modal */
@@ -160,7 +174,7 @@ button:hover {
     opacity: 0;
     visibility: hidden;
 
-    z-index: 999
+    z-index: 999;
 
 }
 
@@ -180,7 +194,7 @@ button:hover {
     opacity: 0;
     visibility: hidden;
 
-    z-index: 999
+    z-index: 999;
 
 }
 
@@ -199,7 +213,7 @@ button:hover {
     opacity: 0;
     visibility: hidden;
 
-    z-index: 999
+    z-index: 999;
 
 }
 

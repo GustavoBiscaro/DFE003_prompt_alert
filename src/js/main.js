@@ -98,7 +98,7 @@ function jantarValor() {
 
   Modal.closeDinner();
 
-   valorJantar.innerHTML = `<h1>Jantar</h1><hr><p>O valor FINAL  do jantar com ${porcentagem}% do valor é</p> <span>R$ ${preçoFinal}<span>`;
+   valorJantar.innerHTML = `<h1>Jantar</h1><hr><p>O valor final do jantar com ${porcentagem}% do valor é</p> <span>R$ ${preçoFinal}<span>`;
   }
 
 // Elabore um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.
